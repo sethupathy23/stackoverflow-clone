@@ -16,7 +16,7 @@ function App() {
     <Routes>
       {/* <Route path="/users/login" element={<Login />} /> */}
      <Route path="/addquestions" element={<Addquestions />}/>
-     <Route path="/questions" element = {
+     <Route path="/" element = {
       //  <ProtectedRoute> 
         <Home />
       //  </ProtectedRoute>
@@ -25,7 +25,7 @@ function App() {
      <Route path="/question" element={<Mainquestion />} />
      <Route path="/viewquestion" element={<ViewQuestion />} />
      <Route path="/login" element={<Login />} />
-     <Route path="/" element={<Main />} />
+     {/* <Route path="/" element={<Main />} /> */}
 
     </Routes>
    </div>

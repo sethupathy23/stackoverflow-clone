@@ -18,7 +18,7 @@ function Home() {
         <div style={{display:'flex', gap: "10px"}}>
         <Sidebar />
         <Mainn />
-        <Addquestions />
+        {/* <Addquestions /> */}
         </div>
    </div>
  </div>
