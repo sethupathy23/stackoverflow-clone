@@ -11,7 +11,7 @@ function Sidebar() {
     <div className='sidebar-container'>
     <div className='sidebar-options'>
     <div className='sidebar-option'>
-    <Link to='/' href="">Home</Link>
+    <Link to='/home' href="">Home</Link>
     </div>
     <div className='sidebar-option'>
     <Link to='/public' href="">PUBLIC</Link>
