@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Avatar from '@mui/material/Avatar';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { API } from './components/Header/global';
 
 function checkAuth(res){
 if(res.status===401){
@@ -23,10 +24,10 @@ function Alldata(){
     const [questions, setQuestions] =useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:4000/questions", {
-        // headers: {
-        //   "x-auth-token": localStorage.getItem("token"), 
-        // },  
+      fetch(`${API}/questions`, {
+       headers: {
+          "x-auth-token": localStorage.getItem("token"), 
+        },  
     })
       .then((res)  => checkAuth(res))
       .then((data) => {
@@ -50,7 +51,7 @@ function Alldata(){
  
 return(
   <div>
-    {questions.map((ele, index)=> (
+    {questions && questions.map((ele, index)=> (
       <AllQuestions data={ele} key={index}/>
     ))};
   </div>

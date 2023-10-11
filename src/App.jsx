@@ -2,7 +2,7 @@
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 // import Login from "./Login";
 import Header from "./components/Header/Header";
-import Login from "./Login";
+// import Login from "./Login";
 import Mainquestion from "./Mainquestion";
 import Addquestions from "./Addquestions";
 import ViewQuestion from './ViewQuestion'
@@ -24,7 +24,7 @@ function App() {
         />
      <Route path="/question" element={<Mainquestion />} />
      <Route path="/viewquestion" element={<ViewQuestion />} />
-     <Route path="/login" element={<Login />} />
+     {/* <Route path="/login" element={<Login />} /> */}
      {/* <Route path="/" element={<Main />} /> */}
 
     </Routes>
