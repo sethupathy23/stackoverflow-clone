@@ -85,12 +85,16 @@ a:hover{
     padding:30px 10px;
     flex:0.75;
     flex-direction: column;
+  
+    max-width: 800px;
+    /* margin-left: 400px; */
     
 }
 .main-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    align-items: center;
     /* border-bottom: 1px solid #eee; */
 }
 .main-top{
@@ -498,3 +502,7 @@ font-size: small;
  button:hover {
     background-color: #053086;
   } 
+
+  .m42{
+    margin-left: 250px;
+  }
