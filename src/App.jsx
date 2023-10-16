@@ -2,7 +2,7 @@ import { Routes, Route, Link, Navigate } from "react-router-dom";
 // import Login from "./Login";
 import Header from "./components/Header/Header";
 import Login from "./Login";
-import Mainquestion from "./MainQuestion";
+import MainQuestion from "./MainQuestion";
 import Addquestions from "./Addquestions";
 import ViewQuestion from "./ViewQuestion";
 import Main from "./Mainn";
@@ -22,7 +22,7 @@ function App() {
             //  </ProtectedRoute>
           }
         />
-        <Route path="/question" element={<Mainquestion />} />
+        <Route path="/question" element={<MainQuestion />} />
         <Route path="/viewquestion" element={<ViewQuestion />} />
         <Route path="/login" element={<Login />} />
         {/* <Route path="/" element={<Main />} /> */}

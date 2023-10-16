@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./Sidebar";
 import Mainn from "./Mainn";
-import MainQuestion from "./Mainquestion";
+import MainQuestion from "./MainQuestion";
 // import Addquestions from './Addquestions'
 // import Login from './Login'
 import Header from "./components/Header/Header";
