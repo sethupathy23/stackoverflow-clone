@@ -12,7 +12,6 @@ function Main() {
         <div className="main-top">
           <h2>Top Questions</h2>
           <Link to="/Addquestions">
-            {" "}
             <button variant="contained">Ask Questions</button>
           </Link>
         </div>

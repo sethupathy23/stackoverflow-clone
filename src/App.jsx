@@ -2,7 +2,7 @@ import { Routes, Route, Link, Navigate } from "react-router-dom";
 // import Login from "./Login";
 import Header from "./components/Header/Header";
 import Login from "./Login";
-import Mainquestion from "./Mainquestion";
+import Mainquestion from "./MainQuestion";
 import Addquestions from "./Addquestions";
 import ViewQuestion from "./ViewQuestion";
 import Main from "./Mainn";
